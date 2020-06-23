@@ -8,7 +8,7 @@ $username=$user
 $Password = $Pass | ConvertTo-SecureString -asPlainText -Force 
 $credential = New-Object –TypeName System.Management.Automation.PSCredential –ArgumentList $username, $password 
  
-$url="https://hclgbpdev.service-now.com/api/now/table/incident?sysparm_limit=1&number=INC0304139"
+$url="$url"
 $method="get"
 $content="application/json"
 
